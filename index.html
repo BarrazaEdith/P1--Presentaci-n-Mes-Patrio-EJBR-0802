@@ -5,10 +5,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ultra&display=swap" rel="stylesheet">
-/*Este bloque sirve para cargar fuentes tipográficas personalizadas desde Google Fonts e incluirlas a mi pagina web*/
+  /* Este bloque sirve para cargar fuentes tipográficas personalizadas desde Google Fonts e incluirlas a mi pagina web */
   
-  <meta charset="UTF-8">/* permite codificación de caracteres*/
-  <title>Septiembre Mes Patria</title>/*El titulo de la pagina web*/
+  <meta charset="UTF-8"> /* permite codificación de caracteres*/
+  <title>Septiembre Mes Patria</title> /*El titulo de la pagina web*/
   <style>
 
     /*El cuerpo de la pagina web*/
@@ -117,72 +117,72 @@
     footer {
       background-color: #d32f2f; /* fondo de color rojo*/ 
       color: white; /*texto de color blanco*/
-      display: flex; 
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
+      display: flex; /*permite alinear facilmente los elementos*/
+      justify-content: space-between; /* distribuye el espacio libre entre los elementos*/
+      align-items: center; /*centra los elementos */
+      padding: 15px 30px;  /*añade un relleno interno dentro del propio elemento para separar su contenido de sus bordes.*/
     }
     
-    footer .datos-alumno {
-      text-align: center;
-      flex-grow: 1;
+    footer .datos-alumno { /* Datos de pie de pagina */
+      text-align: center; /* alinea el texto */
+      flex-grow: 1; /* Todos se repartirán el espacio libre sobrante en partes totalmente iguales. */
     }
 
     footer p {
-      margin: 3px 0;
+      margin: 3px 0; /*selecciona todos los párrafos (<p>) que están dentro de un pie de página (<footer>) y modifica su margen exterior */
     }
 
-    footer img {
-      height: 60px;
+    footer img { /*tamano de las imagenes delpie de pagina */
+      height: 60px; /* 60 px de tamano */
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="campana.png" alt="Campana">
-    <div class="anton-regular">
-      <h1>Septiembre<br>Mes patrio</h1>
-    </div>
-    <img src="mon.png" alt="Moño">
-  </header>
+  <header> <!-- Encabezado -->
+    <img src="campana.png" alt="Campana"> <!-- imagenes de el encabezado-->
+    <div class="anton-regular"> <!-- tipo de letra que usa -->
+      <h1>Septiembre<br>Mes patrio</h1><!--el texto que tiene/titulo -->
+    </div><!-- cierra el div del tipo de letra y que texto saldra con eso-->
+    <img src="mon.png" alt="Moño"> <!-- imagen del encabezado -->
+  </header><!-- cierre del encabezado -->
 
 
-  <nav >
+  <nav ><!-- la barra de busqueda -->
     <a href="index.html">Inicio</a>
     <a href="fechas.html">Fechas importantes</a>
     <a href="personajes.html">Personajes</a>
     <a href="datos.html">Datos</a>
   </nav>
 
-  <main>
+  <main> <!-- informacion unica de la pagina -->
     <img src="elote.png" alt="Elote" class="elote-izq">
 
-    <p class="teverde">
+    <p class="teverde"><!-- texto que saldra en verde -->
       En esta pagina podras encontrar datos sobre el mes de septiembre en mexico como las fechas importantes, personajes ilustres y datos curiosos y leyendas
-    </p>
+    </p><!-- cierre del texto -->
 
     <!-- Escudo central -->
     <img src="escudo.png" alt="Escudo Nacional" class="escudo">
 
-    <p class="teverde">
+    <p class="teverde"><!-- mas texto que estara con la clase teverde -->
       Septiembre es conocido en México como el «Mes Patrio» porque en este periodo se conmemoran los eventos históricos más importantes de la <u>Independencia de México</u> y la soberanía nacional.
 
-    </p>
-  </main>
+    </p><!-- se cierra el parrafo -->
+  </main><!-- cierre del main -->
 
-  <footer>
-    <img src="abanico.png" alt="Abanico">
+  <footer><!-- inicio del pie de pagina -->
+    <img src="abanico.png" alt="Abanico"><!-- imagen del pie de pagina -->
    
-    <div class="footer">
-      <p><strong>Edith Jimena Barraza Reyes</strong></p>
+    <div class="footer"><!-- llama a la clase footer y hace que el texto que salga abajp tenga lo mencionado ahi -->
+      <p><strong>Edith Jimena Barraza Reyes</strong></p><!-- datos -->
       <p>24308051280802</p>
       <p>5-J</p>
       <p>Programacion</p>
     </div>
 
-    <img src="viva-mexico.png" alt="Viva Mexico">
-  </footer>
+    <img src="viva-mexico.png" alt="Viva Mexico"><!-- imagen -->
+  </footer><!-- cierre del pie de pagina -->
 
-</body>
-</html>
+</body><!-- se cierra el cuerpo -->
+</html><!-- se cierra el html -->
