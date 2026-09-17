@@ -1,175 +1,157 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ultra&display=swap" rel="stylesheet">
-
-  <meta charset="UTF-8">
-  <title>Septiembre Mes Patria</title>
+  <!-- Este bloque sirve para cargar fuentes tipográficas personalizadas desde Google Fonts e incluirlas a mi pagina web --> 
+  <meta charset="UTF-8"> <!--  permite codificación de caracteres --> 
+  <title>Septiembre Mes Patria</title> <!-- El titulo de la pagina web --> 
   <style>
    
+    /*El cuerpo de la pagina web*/
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #ffffff;
-
     }
-
-
     body.bodoni-moda-<uniquifier> {
-    font-family: "Bodoni Moda", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    font-family: "Bodoni Moda", serif;/*Tipo de letra*/
+    font-optical-sizing: auto; /* ajusta automáticamente la forma de las letras para que sean más legibles*/
+    font-weight: <weight>; /*Grosor de la letra*/
+    font-style: normal; /*Inclinacion de la letra*/
     color: #0F321B
+      /*TIpo de letra Bonodi Moda con su color,grosor y la inclinación de la letra :D*/
     }
     header {
-      background-color: #388e3c;
-      color: white;
-      display: flex;
-      font-family: "Anton", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 40px;
+      background-color: #388e3c;/*Fondo de color verde*/
+      color: white; /* Texto de color blanco*/
+      display: flex; /* Activa el modelo de caja flexible organizar y alinear fácilmente los elementos dentro de un contenedor.*/
+      font-family: "Anton", sans-serif;/* Tipo de letra*/
+      font-weight: 400; /*Grosor de la letra*/
+      font-style: normal; /*Inclinacion de la letra*/
+      justify-content: space-between; /*Separa los elementos a los extremos (ej. logo a la izq, menú a la der que en mi caso son las imagenes de los lados) */
+      align-items: center;/* Centra los elementos verticalmente */
+      padding: 10px 40px;/* Sirve para alejar el contenido (como el texto o el logo) de los bordes de la caja,10pixeles de arriba y abajp,40 de izquierda a derecha.*/
     }
-
     header h1 {
-      margin: 0;
-      font-size: 32px;
-      line-height: 1.2;
+      margin: 0; /*limina ese espacio para que no desajuste la altura o el centrado del <header>*/
+      font-size: 32px; /*Define el tamaño del texto,por ejemplo en este caso es 32px*/
+      line-height: 1.2; /*Si tu título <h1> es largo y ocupa 2 o más renglones, line-height define la separación entre un renglón y el siguiente*/
     }
-
-    header img {
+    header img { /*Tamaño de las imagenes de el header*/
       height: 60px; 
     }
-
  
    nav {
-  background-color: #c49a7d;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-  width: 100%;
+  background-color: #c49a7d; /*Color*/
+  display: flex; /*permite alinear facilmente los elementos*/
+  justify-content: space-around; /*deja un espacio proporcional a los lados de cada elemento*/
+  padding: 10px 0; /*Aleja el contenido de los bordes 10 pixeles*/
+  width: 100%; /*ancho al maximo*/
 }
-
-    nav a {
-      text-decoration: none;
-      color: #000000;
-      font-weight: bold;
-      font-size: 18px;
+    nav a { /*etiqueta diseño*/
+      text-decoration: none; /*texto sin decoracion*/
+      color: #000000; /*Color negro*/
+      font-weight: bold; /*En negrito/remarcado*/
+      font-size: 18px; /*tamaño de la letra*/
     }
-
-    main {
-      position: relative;
-      padding: 30px 20px;
-      text-align: center;
-      min-height: 300px;
+    main {/*plica estilos al contenedor principal*/
+      position: relative; /*Establece el punto de referencia para el posicionamiento*/
+      padding: 30px 20px; /*aleja el contenido 30 pixeles arriba y abajo,20px de izquierda a derecha*/
+      text-align: center; /*texto en el centro por defecto*/
+      min-height: 300px; /*Define una altura mínima de 300 píxeles.*/
     }
-      .teverde {
-      max-width: 800px;
-      margin: 0 auto 20px auto;
-      font-size: 16px;
-      line-height: 1.5;
-      font-family: "Bodoni Moda", serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-      color: #0e321a; 
+      .teverde {/*Texto de color verde bloque*/
+      max-width: 800px; /*ancho maximo de 800px*/
+      margin: 0 auto 20px auto; /*deja un margen de 20px abajo*/
+      font-size: 16px ;/*altura de las letras a 16px*/
+      line-height: 1.5; /*linea de espacio*/
+      font-family: "Bodoni Moda", serif; /*tipo de letra*/
+      font-optical-sizing: auto; /*CSS que ajusta automáticamente la forma y el grosor de las letras según el tamaño del texto*/
+      font-weight: <weight>; /*si las letras estan remarcadas,en este caso no*/
+      font-style: normal; /*inclinacion de la letra normal*/
+      color: #0e321a; /*color de la letra*/
       }
       .subtitulo1 {
-      max-width: 800px;
-      margin: 0 auto 20px auto;
-      font-size: 2.5rem;
-      line-height: 1.5;
-      font-family: "Bodoni Moda", serif;
-      font-optical-sizing: auto;
-      color: #48904b
+      max-width: 800px; /*tamaño maximo de la letra*/
+      margin: 0 auto 20px auto; /*margen de 20px abajo*/
+      font-size: 2.5rem; /*tamaño de la letra*/
+      line-height: 1.5; /*espacio de altura entre renglones*/
+      font-family: "Bodoni Moda", serif; /*tipo de letra*/
+      font-optical-sizing: auto; /*forma automatica del grosor y tamaño del texto creo?*/
+      color: #48904b; /*color de la letra verde*/
     }
-      .subtitulo2 {
+      .subtitulo2 { /*lo mismo que arriba*/
       max-width: 800px;
       margin: 0 auto 20px auto;
       font-size: 2rem;
       line-height: 1.5;
       font-family: "Bodoni Moda", serif;
       font-optical-sizing: auto;
-      color: #cd2328
+      color: #cd2328; /*color rojo*/
     }
-
-    .escudo {
-      width: 150px;
-      margin: 20px 0;
+    .escudo { /*tamaño de la imagen de el escudo*/
+      width: 150px; /*anchura*/
+      margin: 20px 0; /*20 px de espaio de arriba y abajo*/
     }
-
-    .elote-izq {
-      position: absolute;
-      left: 20px;
-      top: 20px;
-      width: 100px;
+    .elote-izq { /* imagen elote*/
+      position: absolute; /*para que la imagen se quede en el inicio*/
+      left: 20px; /*20px a la izquierda*/
+      top: 20px; /*20 pixeles arriba*/
+      width: 100px; /*anchura de 100px de la imagen*/
     }
-
     footer {
-      background-color: #d32f2f; /* Rojo patrio */
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
+      background-color: #d32f2f; /* fondo de color rojo*/ 
+      color: white; /*texto de color blanco*/
+      display: flex; /*permite alinear facilmente los elementos*/
+      justify-content: space-between; /* distribuye el espacio libre entre los elementos*/
+      align-items: center; /*centra los elementos */
+      padding: 15px 30px;  /*añade un relleno interno dentro del propio elemento para separar su contenido de sus bordes.*/
     }
-
+    
     footer .datos-alumno {
-      text-align: center;
-      flex-grow: 1;
+      text-align: center; /* alinea el texto */
+      flex-grow: 1; /* Todos se repartirán el espacio libre sobrante en partes totalmente iguales. */
     }
-
     footer p {
-      margin: 3px 0;
+      margin: 3px 0; /*selecciona todos los párrafos (<p>) que están dentro de un pie de página (<footer>) y modifica su margen exterior */
     }
-
     footer img {
-      height: 60px;
+      height: 60px; /* 60 px de tamano */
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="campana.png" alt="Campana">
-    <div class="anton-regular">
-      <h1>Septiembre<br>Mes patrio</h1>
-    </div>
-    <img src="mon.png" alt="Moño">
+    <img src="campana.png" alt="Campana"> <!-- imagenes de el encabezado-->
+    <div class="anton-regular"> <!-- tipo de letra que usa -->
+      <h1>Septiembre<br>Mes patrio</h1><!--el texto que tiene/titulo -->
+    </div><!-- cierra el div del tipo de letra y que texto saldra con eso-->
+    <img src="mon.png" alt="Moño"> <!-- imagen del encabezado -->
   </header>
-
-
-  <nav >
+  <nav ><!-- la barra de busqueda -->
     <a href="index.html">Inicio</a>
     <a href="fechas.html">Fechas importantes</a>
     <a href="personajes.html">Personajes</a>
     <a href="datos.html">Datos</a>
   </nav>
-
-  <main>
-
-    <h1 class="subtitulo1">Datos curiosos </h1>
-
-    <p class="teverde">
+  <main> <!-- informacion unica de la pagina -->
+    <h1 class="subtitulo1">Datos curiosos </h1> <!-- subtitulo verde -->
+    <p class="teverde"><!-- dato curioso-->
       El 15 de septiembre no fue exactamente el día en que comenzó la Independencia. El levantamiento inició durante la madrugada del 16 de septiembre de 1810
       Ángel de la Independencia no es un ángel. La figura que está en la parte superior representa a Nike, la diosa griega de la victoria.
       El Grito de Dolores ocurrió en la madrugada, cuando Miguel Hidalgo llamó a la población a levantarse contra el gobierno español.
       El verde, blanco y rojo de la bandera tienen un significado histórico. Originalmente, durante el movimiento independentista, se relacionaban con las Tres Garantías: religión, independencia y unión.
     </p>
-    <h1 class="subtitulo2">Mitos y Leyendas</h1>
-      <p class="teverde">
-       La leyenda de El Pípila
- Se cuenta que Juan José de los Reyes Martínez, “El Pípila”, se colocó una gran piedra sobre la espalda para protegerse de las balas mientras avanzaba hacia la Alhóndiga de Granaditas y prendía fuego a la puerta. La historia es muy conocida, aunque algunos detalles sobre su participación han sido discutidos por historiadores.
+    <h1 class="subtitulo2">Mitos y Leyendas</h1> <!-- subtitulo rojo -->
+      <p class="teverde"><!-- los mitos y leyendas-->
+       La leyenda de El Pípila 
+       Se cuenta que Juan José de los Reyes Martínez, “El Pípila”, se colocó una gran piedra sobre la espalda para protegerse de las balas mientras avanzaba hacia la Alhóndiga de Granaditas y prendía fuego a la puerta. La historia es muy conocida, aunque algunos detalles sobre su participación han sido discutidos por historiadores.
     </p>
       <p class="teverde">
        Los fantasmas de Guanajuato 
- Guanajuato fue escenario de importantes acontecimientos durante la Independencia. Por eso existen leyendas sobre túneles, edificios y lugares antiguos donde supuestamente se aparecen personas que murieron durante las batallas.
+       Guanajuato fue escenario de importantes acontecimientos durante la Independencia. Por eso existen leyendas sobre túneles, edificios y lugares antiguos donde supuestamente se aparecen personas que murieron durante las batallas.
     </p>
       <p class="teverde">
       La leyenda de los Niños Héroes Una de las historias más famosas cuenta que Juan Escutia se envolvió en la bandera mexicana y saltó desde el Castillo de Chapultepec para evitar que cayera en manos del enemigo. Es una historia muy popular en México, aunque varios de sus detalles forman parte de la tradición y no están completamente comprobados.
@@ -180,28 +162,21 @@
     <p class="teverde">
       El túnel secreto de la Independencia  .En algunas ciudades existen relatos sobre túneles secretos que supuestamente fueron utilizados por insurgentes para escapar, esconder armas o transportar mensajes durante la guerra. Algunos túneles históricos sí existen, pero las historias sobre su uso durante la Independencia pueden variar.El 15 de septiembre no fue exactamente el día en que comenzó la Independencia. El levantamiento inició durante la madrugada del 16 de septiembre de 1810
     </p>
-
-
-
     <p class="teverde">
       La leyenda de La Llorona 
- Aunque no pertenece específicamente a la Independencia, es una de las leyendas mexicanas más conocidas. Se cuenta que una mujer aparece por las noches llorando y buscando a sus hijos. Hay diferentes versiones sobre su origen y es considerada parte importante del folklore mexicano.
-
+      Aunque no pertenece específicamente a la Independencia, es una de las leyendas mexicanas más conocidas. Se cuenta que una mujer aparece por las noches llorando y buscando a sus hijos. Hay diferentes versiones sobre su origen y es considerada parte importante del folklore mexicano.
     </p>
   </main>
-
-  <footer>
-    <img src="abanico.png" alt="Abanico">
+  <footer><!-- inicio del pie de pagina -->
+    <img src="abanico.png" alt="Abanico"><!-- imagen del pie de pagina -->
    
-    <div class="footer">
-      <p><strong>Edith Jimena Barraza Reyes</strong></p>
+    <div class="footer"><!-- llama a la clase footer y hace que el texto que salga abajp tenga lo mencionado ahi -->
+      <p><strong>Edith Jimena Barraza Reyes</strong></p><!-- datos -->
       <p>24308051280802</p>
       <p>5-J</p>
       <p>Programacion</p>
     </div>
-
-    <img src="viva-mexico.png" alt="Viva Mexico">
-  </footer>
-
-</body>
-</html>
+    <img src="viva-mexico.png" alt="Viva Mexico"><!-- imagen -->
+  </footer><!-- cierre del pie de pagina -->
+</body><!-- se cierra el cuerpo -->
+</html><!-- se cierra el html -->
