@@ -101,7 +101,7 @@
     text-align:left;
     font-size: 1.3rem;
     }
-      .titulo2 { /* lo mismo que el titulo uno simplemente que en rojo */
+      .titulo2 { /* lo mismo que el titulo  simplemente que en rojo */
       max-width: 800px;
       margin: 0 auto 20px auto;
       font-size: 3rem;
@@ -111,23 +111,24 @@
       color: #cd2328
     }
       .subtitulo1 {
+      max-width: 800px; /*tamaño maximo de la letra*/
+      margin: 0 auto 20px auto; /*margen de 20px abajo*/
+      font-size: 2.5rem; /*tamaño de la letra*/
+      line-height: 1.5; /*espacio de altura entre renglones*/
+      font-family: "Bodoni Moda", serif; /*tipo de letra*/
+      font-optical-sizing: auto; /*forma automatica del grosor y tamaño del texto creo?*/
+      color: #48904b; /*color de la letra verde*/
+    }
+      .subtitulo2 { /*lo mismo que subtitulo1 pero en rojo*/
       max-width: 800px;
       margin: 0 auto 20px auto;
       font-size: 2rem;
       line-height: 1.5;
       font-family: "Bodoni Moda", serif;
       font-optical-sizing: auto;
-      color: #48904b
+      color: #cd2328; /*color rojo*/
     }
-      .subtitulo2 {
-      max-width: 800px;
-      margin: 0 auto 20px auto;
-      font-size: 2rem;
-      line-height: 1.5;
-      font-family: "Bodoni Moda", serif;
-      font-optical-sizing: auto;
-      color: #cd2328
-    }
+
 .img {
   width: 100px;
  
@@ -166,21 +167,21 @@
     <a href="personajes.html">Personajes</a>
     <a href="datos.html">Datos</a>
   </nav>
-<h1 class="titulo2">Personajes ilustres </h1>
-<div class="personaje">
-    <div class="personaje-imagen">
-      <h2 class="subtitulo1">Miguel Hidalgo</h2>
-        <img class="mh" src="img1.png" alt="Miguel Hidalgo">
+<h1 class="titulo2">Personajes ilustres </h1> <!--Titulo en rojo -->
+<div class="personaje"><!--llama la clase personajes -->
+    <div class="personaje-imagen"><!--llama a personaje-imagen para que salgan correctamente -->
+      <h2 class="subtitulo1">Miguel Hidalgo</h2><!--subtitulo verde con el nombre del personaje -->
+        <img class="mh" src="img1.png" alt="Miguel Hidalgo"><!--imagen-->
     </div>
     <div class="teverde">
-        <p>
+        <p><!--parrafo con el texto-->
              Miguel Hidalgo y Costilla fue un sacerdote y uno de los principales líderes de la Independencia de México. El 16 de septiembre de 1810 dio el famoso Grito de Dolores, con el que inició la lucha contra el gobierno español. Hidalgo reunió a miles de personas y logró tomar ciudades importantes como Guanajuato y Valladolid. También estuvo en contra de la esclavitud y buscó mejorar las condiciones de las personas. Fue capturado y ejecutado en 1811, pero su lucha continuó y finalmente México logró su independencia en 1821.
         </p>
     </div>
 </div>
 <div class="personaje">
     <div class="personaje-imagen">
-      <h2 class="subtitulo2">José María Morelos y Pavón</h2>
+      <h2 class="subtitulo2">José María Morelos y Pavón</h2> <!--subtitulo rojo con el nombre del personaje -->
         <img class="mh" src="img2.png" alt="José María Morelos y Pavón">
     </div>
     <div class="teverde">
@@ -191,7 +192,7 @@
 </div>
 <div class="personaje">
     <div class="personaje-imagen">
-      <h2 class="subtitulo1">Vicente Guerrero</h2>
+      <h2 class="subtitulo1">Vicente Guerrero</h2><!--subtitulo verde con el nombre del personaje -->
         <img class="mh" src="img3.png" alt="Vicente Guerrero">
     </div>
     <div class="teverde">
@@ -202,7 +203,7 @@
 </div>
 <div class="personaje">
     <div class="personaje-imagen">
-      <h2 class="subtitulo2">Agustín de Iturbide</h2>
+      <h2 class="subtitulo2">Agustín de Iturbide</h2><!--subtitulo rojo con el nombre del personaje -->
         <img class="mh" src="img4.png" alt="Agustín de Iturbide">
     </div>
     <div class="teverde">
@@ -213,7 +214,7 @@
 </div>
 <div class="personaje">
     <div class="personaje-imagen">
-      <h2 class="subtitulo1">Ignacio Allende</h2>
+      <h2 class="subtitulo1">Ignacio Allende</h2><!--subtitulo verde con el nombre del personaje -->
         <img class="mh" src="img5.png" alt="Ignacio Allende">
     </div>
     <div class="teverde">
@@ -224,7 +225,7 @@
 </div>
 <div class="personaje">
     <div class="personaje-imagen">
-      <h2 class="subtitulo2">Josefa Ortiz de Domínguez</h2>
+      <h2 class="subtitulo2">Josefa Ortiz de Domínguez</h2><!--subtitulo rojo con el nombre del personaje -->
         <img class="mh" src="img6.png" alt="Josefa Ortiz de Domínguez">
     </div>
     <div class="teverde">
@@ -235,7 +236,7 @@
 </div>
 <div class="personaje">
     <div class="personaje-imagen">
-      <h2 class="subtitulo1">Juan Aldama</h2>
+      <h2 class="subtitulo1">Juan Aldama</h2><!--subtitulo verde con el nombre del personaje -->
         <img class="mh" src="img7.png" alt="Juan Aldama">
     </div>
     <div class="teverde">
@@ -246,20 +247,20 @@
 </div>
 <div class="personaje">
     <div class="personaje-imagen">
-      <h2 class="subtitulo2">Leona Vicario</h2>
+      <h2 class="subtitulo2">Leona Vicario</h2><!--subtitulo rojo con el nombre del personaje -->
         <img class="mh" src="img8.png" alt="Leona Vicario">
     </div>
     <div class="teverde">
         <p>
             Leona Vicario fue una de las mujeres que más apoyó el movimiento de Independencia. Ayudaba a los insurgentes proporcionando dinero, información y recursos. También colaboraba con personas que luchaban contra el gobierno español y utilizaba sus propios recursos para apoyar la causa. Fue descubierta y perseguida por las autoridades, pero continuó apoyando la Independencia. Es considerada una de las heroínas más importantes de México.
         </p>
-    </div>
-</div>
-  </main>
-  <footer>
-    <img src="abanico.png" alt="Abanico">
+    </div> <!--cierra el div del personaje-imagen -->
+</div><!--cierra el div de el personaje -->
+  </main><!-- cierra lo principal-->
+  <footer><!-- pie  de pagina-->
+    <img src="abanico.png" alt="Abanico"><!--imagen pie de pagina -->
    
-    <div class="footer">
+    <div class="footer"><!-- datos-->
       <p><strong>Edith Jimena Barraza Reyes</strong></p>
       <p>24308051280802</p>
       <p>5-J</p>
@@ -267,5 +268,5 @@
     </div>
     <img src="viva-mexico.png" alt="Viva Mexico">
   </footer>
-</body>
-</html>
+</body><!-- se cierra el cuerpo-->
+</html><!-- se cierra html-->
