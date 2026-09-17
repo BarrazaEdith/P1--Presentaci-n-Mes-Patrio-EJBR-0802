@@ -5,62 +5,65 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ultra&display=swap" rel="stylesheet">
-
-  <meta charset="UTF-8">
-  <title>Septiembre Mes Patria</title>
+/*Este bloque sirve para cargar fuentes tipográficas personalizadas desde Google Fonts e incluirlas a mi pagina web*/
+  
+  <meta charset="UTF-8">/* permite codificación de caracteres*/
+  <title>Septiembre Mes Patria</title>/*El titulo de la pagina web*/
   <style>
-   
+
+    /*El cuerpo de la pagina web*/
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #ffffff;
-
+/*diseño basico del html*/
     }
 
 
     body.bodoni-moda-<uniquifier> {
-    font-family: "Bodoni Moda", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    font-family: "Bodoni Moda", serif;/*Tipo de letra*/
+    font-optical-sizing: auto;/* ajusta automáticamente la forma de las letras para que sean más legibles*/
+    font-weight: <weight>;/*Grosor de la letra*/
+    font-style: normal;/*Inclinacion de la letra*/
     color: #0F321B
+      /*TIpo de letra Bonodi Moda con su color,grosor y la inclinación de la letra :D*/
     }
     header {
-      background-color: #388e3c;
-      color: white;
-      display: flex;
-      font-family: "Anton", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 40px;
+      background-color: #388e3c;/*Fondo de color verde*/
+      color: white;/* Texto de color blanco*/
+      display: flex; /* Activa el modelo de caja flexible organizar y alinear fácilmente los elementos dentro de un contenedor.*/
+      font-family: "Anton", sans-serif;/* Tipo de letra*/
+      font-weight: 400;/*Grosor de la letra*/
+      font-style: normal;/*Inclinacion de la letra*/
+      justify-content: space-between; /* Separa los elementos a los extremos (ej. logo a la izq, menú a la der que en mi caso son las imagenes de los lados) */
+      align-items: center;/* Centra los elementos verticalmente */
+      padding: 10px 40px;/* Sirve para alejar el contenido (como el texto o el logo) de los bordes de la caja,10pixeles de arriba y abajp,40 de izquierda a derecha.*/
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-      line-height: 1.2;
+    header h1 { /*estas reglas afectarán únicamente a las etiquetas <h1>*/
+      margin: 0; /*limina ese espacio para que no desajuste la altura o el centrado del <header>*/
+      font-size: 32px;/*Define el tamaño del texto,por ejemplo en este caso es 32px*/
+      line-height: 1.2;/*Si tu título <h1> es largo y ocupa 2 o más renglones, line-height define la separación entre un renglón y el siguiente*/
     }
 
-    header img {
+    header img {/*Tamaño de las imagenes de el header*/
       height: 60px; 
     }
 
  
    nav {
-  background-color: #c49a7d;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-  width: 100%;
+  background-color: #c49a7d;/*Color*/
+  display: flex;/*permite alinear facilmente los elementos*/
+  justify-content: space-around;/*deja un espacio proporcional a los lados de cada elemento*/
+  padding: 10px 0;/*Aleja el contenido de los bordes 10 pixeles*/
+  width: 100%;/*ancho al maximo*/
 }
 
-    nav a {
-      text-decoration: none;
-      color: #000000;
-      font-weight: bold;
-      font-size: 18px;
+    nav a {/*etiqueta diseño*/
+      text-decoration: none;/*texto sin decoracion*/
+      color: #000000;/*Color negro*/
+      font-weight: bold;/*En negrito/remarcado*/
+      font-size: 18px;/*tamaño de la letra*/
     }
 
     main {
