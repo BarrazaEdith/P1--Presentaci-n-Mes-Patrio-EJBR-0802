@@ -11,6 +11,7 @@
   <title>Septiembre Mes Patrio</title> <!--El titulo de la pagina web -->
   <style>
    
+/* Contenedor principal: Distribuye la imagen y el texto lado a lado en horizontal, alineados arriba y centrados en la pantalla */
 .personaje {
   display: flex;
   align-items: flex-start;
@@ -19,16 +20,22 @@
   max-width: 1000px;
   margin: 40px auto 30px auto;
 }
+
+/* Imagen del personaje: Define un ancho fijo de 140px, mantiene la proporción sin deformarse y se centra en su columna */
 .personaje-imagen img {
   width: 140px;
   height: auto;
   margin: 0 auto;
 }
-.personaje-imagen h2{
-  font-family:"Anton",sans-serif;
-  font-size:1.3rem;
-  margin-top :10px;
+
+/* Aplica la fuente "Anton", ajusta el tamaño del texto y agrega separación respecto a la imagen */
+.personaje-imagen h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 10px;
 }
+
+/*  Ocupan todo el ancho disponible, se centran horizontalmente y dejan 10px de espacio libre debajo */
 .subtitulo1,
 .subtitulo2 {
   width: 100%;
